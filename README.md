@@ -16,7 +16,7 @@ A template for building OpenWrt with GitHub Actions
 - Select `Build OpenWrt` on the Actions page.
 - Click the `Run workflow` button.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
-
+# https://hackyes.github.io/openwrt-menuconfig/index.html?device=n1
 ## License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
