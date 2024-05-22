@@ -8,22 +8,12 @@
 # Blog: https://p3terx.com
 #=============================================================
 
-# Remove packages
-rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf package/helloworld
-
-# Add a feed source 
-# sed -i "/helloworld/d" "feeds.conf.default"
-# echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
-# git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-# git clone https://github.com/firkerword/luci-app-smartdns.git package/luci-app-smartdns
-# svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot package/luci-app-pushbot
+git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
-git clone https://github.com/leochen-g/wechatBot.git package/wechatBot
 
 # Add packages
 git clone https://github.com/nantayo/My-Pkg package/my-pkg
