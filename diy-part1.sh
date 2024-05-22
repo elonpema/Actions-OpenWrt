@@ -14,8 +14,3 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-cla
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 git clone https://github.com/sirpdboy/chatgpt-web.git package/luci-app-chatgpt
-
-
-# Add packages
-git clone https://github.com/nantayo/My-Pkg package/my-pkg
-git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
