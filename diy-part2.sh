@@ -12,3 +12,7 @@
 
 # Modify default IP
 sed -i 's/10.10.10.1/10.10.10.66/g' package/base-files/files/bin/config_generate
+
+#添加额外软件包
+merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
+merge_package https://github.com/ophub/luci-app-amlogic luci-app-amlogic
